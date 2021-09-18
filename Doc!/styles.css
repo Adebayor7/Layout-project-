@@ -1,0 +1,375 @@
+html {
+  font-size: 16px;
+  line-height: 1;
+}
+body {
+  overflow-x: hidden;
+}
+#nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+  background: hsla(0, 0%, 100%, 98);
+  transition: box-shadow 0.25s ease 0s;
+}
+#header-container {
+  zoom: 0.8;
+  max-width: 1500px;
+  padding: 0 20px;
+  margin: auto;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.is-current {
+  color: #00b39b;
+}
+#nav a {
+  display: inline-block;
+  color: grey;
+}
+.logo-docplanner {
+  width: 300px;
+  height: 40px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
+  color: #747474;
+  padding-top: 180px;
+}
+a {
+  text-decoration: none;
+  color: #3d83df;
+  transition: 2s ease 0s;
+}
+.main-menu a {
+  /*display: block*/
+  text-decoration: none;
+  padding: 0.6rem;
+}
+.main-menu .is-current a {
+  color: #00b39b;
+}
+.main-menu li {
+  display: inline-block;
+}
+.main-menu {
+  list-style: none;
+  font-size: 0.9999rem;
+  font-weight: 400;
+  line-height: 1.5em;
+  padding: 0.5em;
+}
+.dropdown-content {
+  padding-top: 10px;
+  position: absolute;
+  min-width: 250px;
+  margin-left: 120px;
+  background: #fff;
+  box-shadow: 0 5px 10px #d3cfc9;
+  z-index: 2;
+  display: none;
+}
+.dropdown {
+  cursor: pointer;
+  position: relative;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content ul li a:hover {
+  color: #00b39b !important;
+}
+.main-nav {
+  position: relative;
+  margin: -12px;
+}
+#health-exp {
+    display: flex;
+}
+#logo-vg {
+    margin-top: 50px;
+}
+#logo-vg img {
+    display: block;
+    margin: auto;
+}
+h1 {
+    font-size: 1.5rem;
+    color: #00b39b;
+}
+.health-care {
+    text-align: center;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+#health-text {
+    display: flex;
+    /*justify-content: space-between*/
+    margin: 30px 400px;
+    padding-top: 30px;
+}
+.health-patients {
+    line-height: 3em;
+    font-size: 18px;
+    font-family: inherit;
+    font-weight: lighter;
+    color: grey;
+}
+.health-patients2 {
+    line-height: 3em;
+    font-size: 18px;
+    font-family: inherit;
+    font-weight: lighter;
+    color: grey;
+}
+#health-exp {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.services-patients {
+    background-color: #00ccb1;
+    opacity: 1;
+    margin-left: 100px;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
+.more-specialists {
+    margin-top: 10px;
+    font-size: large;
+}
+.patients-opt {
+  margin-top: 100px;
+  font-size: large;
+}
+.more-specials {
+    margin-top: 70px;
+    font-size: large;
+}
+.services-opt {
+  margin-top: 100px;
+  font-size: large;
+}
+.services-clinic {
+    background-color: #1b2734;
+    opacity: 2;
+    height: 300px;
+    width: 300px;
+}
+#user, p{
+  color: #fff;
+}
+#user-nur, p{
+  color: #fff;
+}
+#user-cli, p {
+  color: #fff;
+
+}
+.services-doc {
+    background-color: #3d83df;
+    opacity: 2;
+    height: 300px;
+    width: 300px;
+}
+
+#sponsors {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-left: 200px;
+  padding-top: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 100px;
+  list-style: none;
+}
+#sponsors h1 {
+  font-weight: lighter;
+  font-family: monospace;
+  font-size: 20px;
+  padding-right: 100px;
+}
+#sponsors a {
+  padding: 10px;
+  /*margin-top: 60px;*/
+}
+.action-logo a:hover {
+  color: #00b39b !important;
+}
+.action-logo {
+  margin-top: 20px;
+  font-size: 20px;
+  margin-right: 40px;
+  margin-left: 80px;
+}
+.action-logo a img {
+  color: grey !important;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-right: 200px;
+}
+.brand-logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 70%;
+  list-style: none;
+}
+ul {
+  display: inline;
+  list-style-type: disc;
+  margin-block-start: 1.5px;
+  margin-block-end: 1.5px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.brand-logos li {
+  width: 160px;
+  padding: 5px 0;
+  display: inline-block;
+}
+.brand h1 {
+  float: left;
+  width: 33%;
+  font-size: 1.65em;
+  margin: 0.25em 0 0.4em;
+  padding-right: 1em;
+}
+#advert-logo {
+  background-color: rgb(204, 241, 215);
+  display: flex;
+  padding: 50px;
+  border-radius: 10px;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.more-advert {
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+.first-action {
+  background-color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 10px solid white;
+  height: 300px;
+  width: 250px;
+}
+.appointments {
+    background-color: #fff;
+    text-align: center;
+    align-content: center;
+    width: 250px;
+    height: 300px;
+}
+.patients-two {
+    display: flex-wrap;
+    justify-content: space-between;
+
+  }
+  .unique-patients {
+    background-color: #fff;
+    text-align: center;
+    align-content: center;
+    width: 250px;
+    height: 300px;
+}
+  .active-docs {
+    background-color: #fff;
+    text-align: center;
+    align-content: center;
+    width: 250px;
+    height: 300px;
+  }
+#advert-back {
+  font-weight: lighter;
+  color: #00ccb1;
+  padding-top: 20px;
+  font-size: 40px;
+}
+#advert-back img {
+  width: 500px;
+}
+.col-2 {
+  margin-left: 180px;
+}
+.grid {
+  margin-left: 130px;
+  font-weight: lighter;
+  text-decoration: none;
+}
+#advert_php {
+  margin-left: 130px;
+}
+.talent {
+  text-align: center;
+  padding-top: 50px;
+}
+.talent h1 {
+  font-family: monospace;
+  color: #00ccb1;
+  font-weight: lighter;
+}
+.talent p {
+  font-size: 13px;
+}
+#first-set {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+#second-set {
+    display: flex;
+    justify-content: space-evenly;
+}
+.warsaw h4 {
+  font-size: 15px;
+  font-weight: lighter;
+  margin-left: 10px;
+  background-color: white;
+  border-radius: 1px solid black;
+}
+.warsaw button {
+  background-color: rgb(60, 60, 197);
+  margin-left: 120px;
+  border-radius: 5px;
+  box-shadow: #747474;
+  color: #fff;
+  padding: 10px;
+  font-weight: bolder;
+}
+#mexico {
+    padding-left: 140px;
+ 
+}
+.countries img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+#last-set {
+  text-align: center;
+  margin-top: 30px;
+}
+.button {
+    background-color: rgb(60, 60, 197);
+    color: #fff;
+    padding: 10px;
+    font-weight: bolder;
+}
+#footer {
+  text-align: center;
+}
